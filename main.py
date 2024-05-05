@@ -35,7 +35,6 @@ class MainWin(QWidget):
 
     def next_click(self):
         self.tw = TestWin()
-        self.tw.show()
         self.hide()
 
     def connects(self):

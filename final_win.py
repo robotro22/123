@@ -13,8 +13,6 @@ class FinalWin(QWidget):
         self.set_appear()
         self.show()
 
-
-
     def results(self):
         if self.exp.age < 7:
             self.index = 0
